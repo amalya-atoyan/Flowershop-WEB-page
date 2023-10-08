@@ -1,0 +1,11 @@
+.searchDiv{
+    width: 99vW;
+    height: 66vH;
+}
+
+
+.errSearch{
+    text-align: center;
+    color:#8F758C;
+    margin-top: 150px;
+}

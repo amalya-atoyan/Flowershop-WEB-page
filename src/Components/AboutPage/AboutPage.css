@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 300px;
+}
+
+.logoPart,
+.aboutPart{
+    margin-top: 40px;
+}
+
+.about{
+    width: 600px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.video{
+    width: 450px;
+    height: 320px;
+    margin-left: 300px;
+}

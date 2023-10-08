@@ -1,0 +1,32 @@
+.nav{
+    height: 90px;
+    background-color: #8F758C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 130px;
+    margin: 20px;
+    list-style: none;
+}
+
+.nav  a{
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav a:hover, .active{
+    color: rgb(93, 92, 92) !important;
+    transition: 1s;
+    transform: scale(1.1);
+}
+

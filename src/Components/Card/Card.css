@@ -1,0 +1,45 @@
+ .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .cardImage {
+    width: 400px; 
+    height: 500px; 
+    border: 4px solid #8F758C;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+
+  .cardImage:hover{
+    transition: 1s;
+    transform: scale(1.08);
+  }
+  
+
+  h1{
+    margin-top: 30px;
+  }
+
+  h3 {
+    margin-top: 23px;
+  }
+
+
+  .more{
+    font-size: 20px;
+    font-weight: bolder;
+    border: 4px solid #8F758C;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .more:hover{
+    background-color: #8F758C;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+  }

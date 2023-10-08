@@ -1,0 +1,14 @@
+.shop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .error{
+    width: 50vW;
+    margin-left: 350px;
+    margin-top: 50px;
+    height: 62vH;
+  }

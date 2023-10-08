@@ -1,0 +1,35 @@
+.ad{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.469);
+    z-index: 111;
+
+}
+
+.ad div{
+    width: 40%;
+    height:65% ;
+    margin: 10% auto;
+    background-color: white;
+    border: 1px solid;
+    display: flex;
+}
+
+.ad span{
+    color:#8F758C;
+    cursor: pointer;
+    font-size: 45px;
+    font-weight: bolder;
+    padding: 15px;
+   /* bottom: 50px; */
+    /* border: 1px solid; */
+}
+
+.adPoster{
+    width: 80%;
+    height: 90%;
+    margin: 30px;
+}
